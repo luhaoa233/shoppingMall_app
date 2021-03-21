@@ -1,0 +1,64 @@
+.test-h{
+  height: 700rpx;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.home_notice{
+  margin: 10px 0px;
+}
+
+.item-promote-head{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24rpx;
+  padding-bottom: 0rpx;
+  // margin-top: 24rpx;
+  view{
+    width: 187.5rpx;
+  }
+  image{
+    width: 90rpx;
+    height: 90rpx;
+  }
+  .total{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10rpx;
+    padding-bottom:24rpx;
+    max-width: 174rpx;
+    position: relative;
+    view{
+      text-align: center;
+      margin-top: 14rpx;
+    }
+    .title{
+      width:120rpx;
+      height:40rpx;
+      font-size:28rpx;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(80,81,84,1);
+      line-height:34rpx;
+    }
+    .title_qipao{
+      position:absolute;
+      top:-5rpx;
+      left:56%;
+      height:36rpx;
+      font-size:26rpx;
+    }
+    .red_point{
+      width:20rpx;
+      height:20rpx;
+      background:rgba(242,60,60,1);
+      border-radius: 50%;
+      position: absolute;
+      top:-5rpx;
+      left:110rpx;
+    }
+  }
+}
